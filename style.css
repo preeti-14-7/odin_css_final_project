@@ -1,0 +1,121 @@
+body{
+    margin : 0;
+    padding: 0;
+
+}
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 20px 0px 20px 100px;
+}
+.ul a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    
+}
+.ul{
+    padding: 40px;
+}
+.logo{
+    border:none;
+    width: 8%;
+    height:8%;
+}
+.head{
+    background-color: #1F2937;
+    color: white;
+    height: 500px;
+    
+}
+.top{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    
+}
+.image{
+    height:200px;
+    width:500px;
+    border: none;
+}
+
+.text{
+    padding:  5px;
+}
+.cardpart{
+    display: flex;
+    padding: 20px 140px;
+}
+.card{
+    padding: 20px;
+}
+
+.card img{
+        width:150px;
+        height:150px;
+        border-radius: 2rem;
+        border-color: cornflowerblue;
+        border-width: 5px;
+        border-style: solid;
+     }
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    display: flex;
+    justify-content: right;
+    color: black;
+    font-weight: bold;
+}
+.down{
+    background-color: #E5E7EB;
+    color:  #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px;
+}
+.btn{
+    padding: 150px;
+}
+.bottom{
+    background-color: #3882F6;
+    padding:  30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    border-radius: 5px;
+}
+.bottom button{
+    background-color:#3882F6;
+    border-color: #fff;
+    border-radius: 8px;
+    padding: 5px 25px;
+    color: white;
+    font-family: 'Roboto', arial;
+}
+.text button{
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+}
